@@ -22,7 +22,6 @@ $dbSelect = new DbSelect;
     $booksQuantity = $dbSelect->getQuantity('books');
     $authorsQuantity = $dbSelect->getQuantity('authors');
     $genresQuantity = $dbSelect->getQuantity('genres');
-    
 
 // insertion block
 require_once 'classes/DbInsertClass.php';
